@@ -1,0 +1,16 @@
+#square-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.square {
+    width: 37.5px;
+    height: 37.5px;
+    box-sizing: border-box;
+    border: 3px solid red;
+    background-color: white;
+}
